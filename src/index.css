@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+body{
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+/* ----------------- ANIMATION-------------------- */
+@keyframes animate{
+    from{
+  transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+  }
+
+.animate{
+    animation-name: animate;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .play{
+    animation-name: play;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-top: 3px solid green ;
+    border-bottom: 3px solid red;
+    border-left:3px solid yellow;
+    border-right: 3px solid blue;
+}
+ 
+@keyframes play{
+    from{
+ transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+.clipp{
+    clip-path: polygon(0 0, 100% 1%, 87% 26%, 100% 52%, 88% 74%, 100% 100%, 0 100%, 11% 74%, 0 49%, 10% 26%);}
+
+    /* ---------------------------------- */
+    .parentt{
+        width: 100%;
+        position: relative;
+      }
+      .parentt img{vertical-align: middle;}
+      
+      .parentt .title{
+        position: absolute;
+        bottom: 20%;
+        left: 25%;
+        background-color: black;
+        color: white;
+        opacity: 0;
+        transition: transform 1s ;
+        transform: translateY(30px); 
+      }
+      .parentt:hover .title{
+        opacity: 1;
+        transform: translateY(20px); 
+      }
+      .title:hover{
+      background-color: black;
+      }
+    
