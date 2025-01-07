@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
  
-
+@layer utilities {
+  .border-dotted {
+    border-style: dotted;
+  }
+}
 body{
     overflow-x: hidden;
 }
@@ -72,4 +76,12 @@ html{
       .title:hover{
       background-color: black;
       }
-    
+    /* ------------HOME G-------------- */
+    .clip2{
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 41% 100%, 0 99%, 11% 84%, 0 66%, 14% 50%, 0 33%, 13% 17%);
+    }
+   .webkit{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+   }

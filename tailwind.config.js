@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
     extend: {},
+    borderStyle: {
+      dotted: 'dotted', 
+    },
   },
   plugins: [flowbite.plugin()],
 }

@@ -23,8 +23,8 @@ export default function HomeD() {
   const [selectedItem, setSelectedItem] = useState(items[0]);
 
   return (
-    <div className="container mx-auto ">
-      <h1 className="text-center lg:text-4xl text-2xl font-bold pb-5">Most Popular Products</h1>
+    <div className="container mx-auto " data-aos="fade-up" data-aos-duration="1500">
+      <h1 className="text-center lg:text-4xl text-2xl font-bold pb-5 pt-8">Most Popular Products</h1>
 
       <ul className="flex justify-center space-x-4 mt-4">
         {items.map((item) => (
