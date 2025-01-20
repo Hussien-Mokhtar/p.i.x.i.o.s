@@ -80,8 +80,51 @@ html{
     .clip2{
       clip-path: polygon(0 0, 100% 0, 100% 100%, 41% 100%, 0 99%, 11% 84%, 0 66%, 14% 50%, 0 33%, 13% 17%);
     }
-   .webkit{
-    color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    .webkit {
+      color: transparent;
+      -webkit-text-stroke-width: 0.5px;
+      -webkit-text-stroke-color: white;
+      display: inline-block; 
+      animation: waveEffect 2s infinite ease-in-out;
+  }
+  
+  @keyframes waveEffect {
+      0%, 100% {
+          transform: translateY(0); 
+      }
+      25% {
+          transform: translateY(-10px); 
+      }
+      50% {
+          transform: translateY(10px); 
+      }
+      75% {
+          transform: translateY(-10px); 
+      }
+  }
+     /* ---------------HOME L----------------- */
+   .clip3{
+    clip-path: polygon(89% 19%, 100% 37%, 89% 50%, 100% 65%, 88% 82%, 100% 100%, 64% 100%, 0 100%, 0 0, 100% 0);
    }
+   .webkit2 {
+    color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+    display: inline-block; 
+    animation: waveEffect 2s infinite ease-in-out; 
+}
+
+@keyframes waveEffect {
+    0%, 100% {
+        transform: translateY(0); 
+    }
+    25% {
+        transform: translateY(-10px); 
+    }
+    50% {
+        transform: translateY(10px); 
+    }
+    75% {
+        transform: translateY(-10px); 
+    }
+}

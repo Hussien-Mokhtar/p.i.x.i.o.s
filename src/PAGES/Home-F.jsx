@@ -6,9 +6,9 @@ import blue from "../assets/blue.png"
 import HomeFDynamic from "../DYNAMIC/HomeFDynamic";
 export default function HomeF() {
     const pic =[
-        {id:1 , img:woo, title:"up to 79% off" , name:"Cozy Knit Cardigan Sweater",price1:"80$", price2:"95$"},
-        {id:2 , img:waad, title:"up to 79% off" , name:"Sophisticated Swagger Suit",price1:"80$", price2:"95$"},
-        {id:3 , img:blue, title:"up to 79% off" , name:"Classic Denim Skinny Jeans",price1:"80$", price2:"95$"},
+        {id:1 , img:woo, title:"up to 79% off" , name:"Cozy Knit Cardigan Sweater",price1:"$80", price2:"$95"},
+        {id:2 , img:waad, title:"up to 79% off" , name:"Sophisticated Swagger Suit",price1:"$80", price2:"$95"},
+        {id:3 , img:blue, title:"up to 79% off" , name:"Classic Denim Skinny Jeans",price1:"$80", price2:"$95"},
     ]
   return (
     <>
