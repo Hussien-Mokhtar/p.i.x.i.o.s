@@ -11,7 +11,7 @@ export default function HomeLDynamic({HomeL}) {
         <h1 className='flex justify-between gap-2 pt-1'>{HomeL.name} <span><del className='text-gray-400'>{HomeL.price2}</del></span></h1>
 
         </div>
-      </div>
+      </div> 
 
     </div>
   )

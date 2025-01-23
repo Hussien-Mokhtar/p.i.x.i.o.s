@@ -9,8 +9,7 @@ export default function HomeL() {
           {id:1 , img:woo, title:"up to 79% off" , name:"Cozy Knit Cardigan Sweater",price1:"$80", price2:"$95"},
           {id:2 , img:waad, title:"Free Delivery" , name:"Sophisticated Swagger Suit",price1:"$80", price2:"$95"},
           {id:3 , img:blue, title:"Free Delivery" , name:"Classic Denim Skinny Jeans",price1:"$80", price2:"$95"},
-          {id:3 , img:checkgirl, title:"up to 79% off" , name:"Classic Denim Skinny Jeans",price1:"$80", price2:"95$"},]
-    
+          {id:4 , img:checkgirl, title:"up to 79% off" , name:"Classic Denim Skinny Jeans",price1:"$80", price2:"95$"},]
   return (
     <>
             <div className="grid lg:grid-cols-2 grid-cols-1 mt-12">
