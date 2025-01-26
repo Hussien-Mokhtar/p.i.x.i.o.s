@@ -1,11 +1,12 @@
 import React from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export default function HomeJDynamic({HomeJ}) {
   return (
     <>
           <div className="pt-8 lg:px-2 px-2 relative">
-<div className="font-semibold lg:text-sm text-xl rounded-lg"data-aos="fade-right" data-aos-duration="1500">
-<div> <img src={HomeJ.img} alt="" className="rounded-2xl h-[25rem] w-full duration-500 lg:mt-3 mt-2 "/></div>
+<div className="font-semibold lg:text-sm text-xl rounded-lg">
+<div> <LazyLoadImage src={HomeJ.img} alt="" className="rounded-2xl h-[25rem] w-full duration-500 lg:mt-3 mt-2 "/></div>
 
 <div className=" absolute lg:right-24 right-10 top-20 ">
   <h1 className='font-bold bg-white p-1 px-4 lg:w-full w-36 text-center'>{HomeJ.title1}</h1>

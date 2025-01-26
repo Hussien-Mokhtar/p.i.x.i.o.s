@@ -1,10 +1,10 @@
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 export default function HomeKDynamic({HomeK}) {
   return (
     <>
     <div className=" lg:px-2 mx-4 flex items-center border border-black rounded-2xl mb-10 shadow-lg" data-aos="fade-left" data-aos-duration="1500">
     <div className="">
-    <img src={HomeK.img} alt="img" className="w-[12rem] lg:h-[12rem] h-[10rem] rounded-3xl p-4"/>
+    <LazyLoadImage src={HomeK.img} alt="img" className="w-[12rem] lg:h-[12rem] h-[10rem] rounded-3xl p-4"/>
     </div>        
         <div className="">
         <h1 className="font-bold lg:text-xl text-sm">{HomeK.name}</h1>

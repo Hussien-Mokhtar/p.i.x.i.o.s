@@ -3,13 +3,13 @@ import { Navbar } from 'flowbite-react'
 import { IoPersonOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineShoppingBag } from "react-icons/md";
-import { Link } from "react-router-dom"
+import { Link, Navigate } from "react-router-dom"
 import UpNav from "../LAYOUT/UpNav";
 export default function MidNav() {
   return (
-        <header>
+        <header >
         <UpNav/>
-       <Navbar className=' border-b-2'>
+       <Navbar >
 
       <Navbar.Brand >
       <div className="w-40 hover:scale-105 lg:ml-[-4rem]"> <img src={logo} alt="" /> </div>
@@ -18,7 +18,8 @@ export default function MidNav() {
 
  <Navbar.Collapse >
     <Navbar.Link> <h5 className='lg:text-[1rem] text-l font-bold hover:underline  hover:text-blue-600 duration-300'>
-      <Link to="/">HOME</Link> </h5></Navbar.Link>
+      
+    <Link to="/">HOME</Link> </h5></Navbar.Link>
     <Navbar.Link> <h5 className='lg:text-[1rem] text-l font-bold hover:underline  hover:text-blue-600 duration-300'> <Link to="/shop">SHOP</Link></h5></Navbar.Link>
     <Navbar.Link> <h5 className='lg:text-[1rem] text-l font-bold hover:underline  hover:text-blue-600 duration-300'><Link to="/aboutus">ABOUT US</Link></h5></Navbar.Link>
     <Navbar.Link> <h5 className='lg:text-[1rem] text-l font-bold hover:underline  hover:text-blue-600 duration-300'><Link to="/blog">BLOGS</Link></h5></Navbar.Link>

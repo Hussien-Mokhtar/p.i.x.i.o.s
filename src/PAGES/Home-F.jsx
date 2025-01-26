@@ -14,7 +14,7 @@ export default function HomeF() {
     <>
       <div className=" mx-4 px-4 grid lg:grid-cols-2 grid-cols-1">
         <div className="" data-aos="fade-right" data-aos-duration="1500">
-            <img src={pic3} alt="" className="rounded-t-full"/>
+            <img src={pic3} alt="" className="rounded-t-full hover:-translate-y-4 duration-150"/>
         </div>
         <div className="pt-6">
         <div className="flex justify-between ">

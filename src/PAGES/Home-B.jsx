@@ -50,7 +50,7 @@ export default function HomeB() {
     <div className=" grid lg:grid-cols-12 grid-cols-1 py-10">
         <div className="bg-blue-500 h-[20rem]  col-span-8 grid lg:grid-cols-2 grid-1">
         <Slider ref={slider => (sliderRef = slider)} {...settings} className="lg:w-[45rem] w-[20rem]
-         lg:h-[20rem] lg:py-10 py-5 ml-[4rem]">
+         lg:h-[20rem] lg:py-10 py-5 ml-[4rem]" >
         {SlideHomeB.map((hB)=>{
            return <HomeBDynamic key={hB.id} HomeB={hB} />
         })}

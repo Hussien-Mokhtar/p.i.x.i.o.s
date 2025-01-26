@@ -5,13 +5,25 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { RouterProvider,createBrowserRouter } from 'react-router-dom';
 import MainHome from './PAGES/MainHome';
-import Aoss from './LAYOUT/Aoss';
-<Aoss/>
+import MainBlog from './BLOGS/MainBlog';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import MainContactUs from './CONTACT-US/MainContactUs';
 const routers = createBrowserRouter ([
   {
    path: "/", 
    element:<MainHome/>
-  }
+  },
+  {
+    path: "/blog", 
+    element:<MainBlog/>
+   },
+   {
+    path: "/contactus", 
+    element:<MainContactUs/>
+   },
+
+   
+ 
 ])
 
 createRoot(document.getElementById('root')).render(

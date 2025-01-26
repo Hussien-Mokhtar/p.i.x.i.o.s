@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { testData } from "../LAYOUT/Data"; // استبدل هذا ببياناتك
+import { testData } from "../LAYOUT/Data";
 import { FaStarOfLife } from "react-icons/fa";
 import arrow from "../assets/rightarrow.png";
 import { GiPolarStar } from "react-icons/gi";
 import { FaPlay } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-
 export default function HomeA() {
   const [selected, setSelected] = useState(0);
   const tLength = testData.length;

@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 export default function UpNav() {
   const testData =  [
     {
-        review: <h5> <span className=' cursor-pointer text-lg'>Welcom To Our Company (Pixios)...</span></h5>,
+        review: <h5> <span className=' cursor-pointer text-lg'>Welcom To Our Company (P.i.x.i.o.s)...</span></h5>,
     },
     {
         review: <h5 className="text-black"> <span className=' cursor-pointer text-lg'>Welcom To Our Company (Pixios)...</span></h5>,
