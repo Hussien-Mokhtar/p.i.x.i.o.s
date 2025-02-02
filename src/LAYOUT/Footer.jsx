@@ -12,10 +12,11 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import woo from "../assets/woogirl-1.png"
 import waad from "../assets/waad.png"
 import yellow from "../assets/yellow.png"
+import Aoss from "./Aoss";
 export default function Footer1() {
   return (
     <>
-    <div className=" text-sm pt-10" data-aos="fade-right" data-aos-duration="3000" >
+    <div className=" text-sm pt-10" data-aos="fade-right" data-aos-duration="3000" ><Aoss/>
     <Footer >
       <div className="w-full ">
         <div className="grid w-full grid-cols-2 gap-8 px-6 py-16 md:grid-cols-5 shadow-md ">

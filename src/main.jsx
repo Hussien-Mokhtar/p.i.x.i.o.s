@@ -8,6 +8,9 @@ import MainHome from './PAGES/MainHome';
 import MainBlog from './BLOGS/MainBlog';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import MainContactUs from './CONTACT-US/MainContactUs';
+import MainShop from './SHOP/MainShop';
+import MainAboutUs from './ABOUT-US/MainAboutUs';
+import Login from './LOGIN & REGISTER/Login';
 const routers = createBrowserRouter ([
   {
    path: "/", 
@@ -21,6 +24,21 @@ const routers = createBrowserRouter ([
     path: "/contactus", 
     element:<MainContactUs/>
    },
+   {
+    path: "/shop", 
+    element:<MainShop/>
+   },
+   {
+    path: "/aboutus", 
+    element:<MainAboutUs/>
+   },
+   {
+    path: "/login", 
+    element:<Login/>
+   },
+
+
+
 
    
  

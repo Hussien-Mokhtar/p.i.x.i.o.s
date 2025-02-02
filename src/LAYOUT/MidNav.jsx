@@ -7,7 +7,7 @@ import { Link, Navigate } from "react-router-dom"
 import UpNav from "../LAYOUT/UpNav";
 export default function MidNav() {
   return (
-        <header >
+        <header  className="fixed top-0 left-0 w-full z-20 border-b"> 
         <UpNav/>
        <Navbar >
 

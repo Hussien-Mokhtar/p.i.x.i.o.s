@@ -6,11 +6,11 @@ import NotARobot from "./Robot"
 export default function ContactUs() {
   return (
     <>
-          <motion.div className="relative" initial={{ x: '-150%' }} animate={{ x: 0 }}
+          <motion.div className="relative pt-32" initial={{ x: '-150%' }} animate={{ x: 0 }}
       transition={{ duration: 1, ease: 'easeOut'  }} >
         <LazyLoadImage src={cart} alt="" className="w-full h-[15rem] "/>
         <div className="text-white">
-  <h5 className="absolute left-0 top-0 flex flex-col text-4xl bg-black bg-opacity-30 w-full lg:px-[33rem] px-[7rem] py-[5.1rem]  font-bold text-center"> ContactUs <span className="text-lg font-semibold mt-2">
+  <h5 className="absolute left-0 top-0 flex flex-col text-4xl bg-black bg-opacity-30 w-full lg:px-[33rem] px-[7rem] py-[5.1rem]  font-bold text-center pt-[210px]"> ContactUs <span className="text-lg font-semibold mt-2">
           <Link to="/">HOME</Link>  - CONTACTUS</span></h5>
         </div>
       </motion.div>

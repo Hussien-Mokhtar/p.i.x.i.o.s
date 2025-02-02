@@ -1,5 +1,5 @@
+import ArrowTop from "../LAYOUT/ArrowTop";
 import MidNav from "../LAYOUT/MidNav";
-import UpNav from "../LAYOUT/UpNav";
 import Blog from "./Blog";
 
 export default function MainBlog() {
@@ -7,6 +7,7 @@ export default function MainBlog() {
     <>
     <MidNav/>
       <Blog/>
+      <ArrowTop/>
     </>
   )
 }

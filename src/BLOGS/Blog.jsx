@@ -17,13 +17,13 @@ export default function Blog() {
 { id:4 , img:blog4, date:"7 Sep 2025" , title:"Runway Rundown: Decoding Fashion Week’s Best Looks"}
 
   ]
-  return (
+  return ( 
     <>
-          <motion.div className="relative" initial={{ x: '-150%' }} animate={{ x: 0 }}
+          <motion.div className="relative pt-32" initial={{ x: '-150%' }} animate={{ x: 0 }}
       transition={{ duration: 1, ease: 'easeOut'  }} >
         <LazyLoadImage src={cart} alt="" className="w-full h-[15rem] "/>
         <div className="text-white">
-  <h5 className="absolute left-0 top-0 flex flex-col text-4xl bg-black bg-opacity-30 w-full lg:px-[35rem] px-[7rem] py-[5.1rem]  font-bold text-center"> Blog <span className="text-lg font-semibold mt-2">
+  <h5 className="absolute left-0 top-0 flex flex-col text-4xl bg-black bg-opacity-30 w-full lg:px-[35rem] px-[7rem] py-[5.1rem]  font-bold text-center pt-[210px]"> Blog <span className="text-lg font-semibold mt-2">
           <Link to="/">HOME</Link>  - BLOG</span></h5>
         </div>
       </motion.div>
