@@ -10,7 +10,7 @@ export default function AboutUsC() {
         <div className="my-10">
             <h1 className="lg:text-3xl text-2xl font-bold">Meet our team of creators, <br /> designers, and world-class problem <br /> solvers</h1>
             <h3 className="text-gray-500 my-4 ">There are many variations of passages of Lorem Ipsum available, but the majority <br /> have suffered alteration in some form, by injected humour, or randomised words.</h3>
-            <button className="bg-black text-white px-6 py-2 rounded-xl">Join Our Team</button>
+            <button className="bg-black text-white px-6 py-2 rounded-xl hover:bg-blue-700 hover:text-white duration-150 hover:scale-110">Join Our Team</button>
         </div>
         <div className="flex text-center gap-8 py-8">
 

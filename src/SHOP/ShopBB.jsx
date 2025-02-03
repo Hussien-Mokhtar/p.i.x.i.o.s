@@ -14,7 +14,6 @@ export default function ShopBB() {
     { name: "Jacket", count: 6 },
     { name: "Coat", count: 22 },
   ];
-
   const [selectedSize, setSelectedSize] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
 

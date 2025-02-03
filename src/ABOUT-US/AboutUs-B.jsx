@@ -7,7 +7,7 @@ export default function AboutUsB() {
       <div className="grid lg:grid-cols-2 grid-cols-1 my-8 px-10 gap-20 ">
         <div className="group relative">
             <LazyLoadImage src={men} alt="" className='rounded-2xl '/>
-            <div className="absolute inset-0  bg-gradient-to-r from-transparent via-white/30 to-transparent 
+            <div className="absolute inset-0  bg-gradient-to-r from-transparent via-white/50 to-transparent 
       opacity-0 group-hover:opacity-80 transition-opacity duration-100 animate-shimmer"></div>
 
         </div>

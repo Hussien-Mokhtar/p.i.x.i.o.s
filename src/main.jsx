@@ -11,6 +11,16 @@ import MainContactUs from './CONTACT-US/MainContactUs';
 import MainShop from './SHOP/MainShop';
 import MainAboutUs from './ABOUT-US/MainAboutUs';
 import Login from './LOGIN & REGISTER/Login';
+import Register from './LOGIN & REGISTER/Register';
+import ForgetPassword from './LOGIN & REGISTER/Forget';
+import Wishlist from './LOGIN & REGISTER/WishList';
+import { store } from './LOGIN & REGISTER/Store';
+import { Provider } from 'react-redux';
+import Checkout1 from './CHECKOUT/Checkout1';
+import Checkout2 from './CHECKOUT/Checkout2';
+import Checkout3 from './CHECKOUT/Checkout3';
+import Checkout4 from './CHECKOUT/Checkout4';
+import Checkout5 from './CHECKOUT/Checkout5';
 const routers = createBrowserRouter ([
   {
    path: "/", 
@@ -36,16 +46,51 @@ const routers = createBrowserRouter ([
     path: "/login", 
     element:<Login/>
    },
+   {
+    path: "/register", 
+    element:<Register/>
+   },
+   {
+    path: "/forget", 
+    element:<ForgetPassword/>
+   },
+   {
+    path: "/wishlist", 
+    element:<Wishlist/>
+   },
+   {
+    path: "/checkout1", 
+    element:<Checkout1/>
+   },
+   {
+    path: "/checkout2", 
+    element:<Checkout2/>
+   },
+   {
+    path: "/checkout3", 
+    element:<Checkout3/>
+   },
+   {
+    path: "/checkout4", 
+    element:<Checkout4/>
+   },
+   {
+    path: "/checkout5", 
+    element:<Checkout5/>
+   },
 
 
 
 
-   
+
+
  
 ])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Provider store={store}>
 <RouterProvider router={routers}/> 
+</Provider>
   </StrictMode>,
 )

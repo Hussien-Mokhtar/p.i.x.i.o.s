@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import login from "../assets/login-img.svg"
+import log from "../assets/log.png"
 import MidNav from "../LAYOUT/MidNav"
 import { motion } from "framer-motion"
 import cart from "../assets/cart.jpg" 
@@ -34,7 +34,8 @@ export default function Login() {
         if (data.status) {
           console.log("Success:", data);
 
-          localStorage.setItem('token', data.token);
+          // localStorage.setItem('token', data.token);
+          sessionStorage.setItem('token', data.token);
           navigate("/");
           setEmail("");
           setPassword("");
@@ -63,10 +64,10 @@ export default function Login() {
    <motion.div className=""             
               animate={{ y: [0, 20,0] }} 
               transition={{ duration: 3, repeat: Infinity }} >
-   <img src={login} alt="Login-img" className="lg:w-full" />
+   <LazyLoadImage src={log} alt="Login-img" className="lg:w-[20rem] bg-blue-400 rounded-t-full" />
    </motion.div>
    
-      <form className="flex flex-col gap-4" onSubmit={submitHandler}>
+      <form className="flex flex-col gap-4 border border-black  p-4 rounded-2xl" onSubmit={submitHandler}>
         <div> 
           <div className="mb-2 block">
             <Label htmlFor="email1" value="Your email" className="text-md"/>
@@ -80,7 +81,7 @@ export default function Login() {
           <TextInput id="password1" type="password" placeholder="Enter your password"  required onChange={(e) => setPassword(e.target.value)}/>
         </div>
         
-<div className="flex justify-between">
+<div className="flex justify-between ">
 
 <div className="flex items-center gap-2">
           <Checkbox id="remember" />
