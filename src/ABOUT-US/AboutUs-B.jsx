@@ -27,8 +27,8 @@ In addition to our extensive collection, we're equally devoted to ensuring your 
         </div>
       </div>
 
-<div className="bg-black text-white w-full p-8 flex justify-center gap-5"> <h1 className='text-xl font-bold'>Questions ?</h1>  Our experts will help find the grar that’s right for you
-<button className='bg-white text-black rounded-md px-6 py-1 font-semibold hover:bg-blue-600 hover:text-white hover:scale-110 duration-150'>Get In Touch</button>
+<div className="bg-black text-white w-full p-8 flex justify-center gap-5"> <h1 className='lg:text-xl text-sm font-bold'>Questions..?</h1>  Our experts will help find the grar that’s right for you
+<button className='bg-white text-black rounded-md lg:px-6 px-2 py-2 font-semibold hover:bg-blue-600 hover:text-white hover:scale-110 duration-150 text-sm lg:w-[10rem] w-[14rem]'>Get In Touch</button>
 
 </div>
     </>
