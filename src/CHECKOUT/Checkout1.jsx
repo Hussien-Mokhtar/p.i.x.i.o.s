@@ -45,12 +45,12 @@ export default function Checkout1() {
       </div>
 
       </div>
-      <div className="-mt-20"> <Wishlist/> </div>
       <div className="container mx-auto lg:px-60 lg:pt-8 grid grid-cols-2 pb-8 ">
         <h5 ><Link to="/shop" className="flex items-center gap-2 font-bold text-lg"> <FaArrowLeftLong /> <span> Return to shop</span> </Link></h5>
         <button className="hover:scale-105 duration-200 "> <Link to="/checkout2" className="bg-black text-white font-bold p-4 border-4 border-blue-600 rounded-tl-2xl rounded-br-2xl hover:bg-blue-600 hover:border-black text-sm">Continue to Shipping</Link> </button>
     </div>
-      <Footer1/>
+    <div className="-mt-20"> <Wishlist/> </div>
+
       <ArrowTop/>
     </>
   );
