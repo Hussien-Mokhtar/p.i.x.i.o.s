@@ -6,8 +6,8 @@ import blog1 from "../assets/blog1.jpg"
 import blog2 from "../assets/blog2.jpg"
 import blog3 from "../assets/blog3.jpg"
 import blog4 from "../assets/blog4.jpg"
-import BlogDynamic from "../DYNAMIC2/BlogDynamic.JSX"
 import Footer1 from "../LAYOUT/Footer"
+import BlogDynamic from "../DYNAMIC2/BlogDynamic.jsx"
 
 export default function Blog() {
   const blog = [
