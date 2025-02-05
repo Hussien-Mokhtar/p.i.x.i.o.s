@@ -6,9 +6,6 @@ import pink from "../assets/pink.png";
 import carizma from "../assets/carizma.png"
 import classic from "../assets/classic.png"
 import curly from "../assets/curlygirl.png"
-import { IoMdHeartEmpty } from "react-icons/io";
-import { RiShoppingBasket2Line } from "react-icons/ri";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import HomeDDDynamic from "../DYNAMIC/HomeDDDynamic";
 import { Link } from "react-router-dom";
 export default function HomeDD() {
@@ -27,7 +24,7 @@ export default function HomeDD() {
     <>
                      <Link to={`/shopdetails/${HomeDDD.id}`}>  
 
-        <div className="mt-8 lg:-mx-9 grid lg:grid-cols-4 grid-cols-2 lg:gap-6 gap-4 lg:w-[70rem] ">
+        <div className="mt-8 lg:-mx-9 mx-20 grid lg:grid-cols-4 grid-cols-1 lg:gap-6 gap-4 lg:w-[70rem] w-full ">
             <>
             { HomeDDD.map((hdd)=>{
             return <HomeDDDynamic key={hdd.id} HomeDD={hdd}/>
