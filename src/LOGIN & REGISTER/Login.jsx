@@ -8,6 +8,7 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import Footer1 from "../LAYOUT/Footer"
 import { LazyLoadImage } from "react-lazy-load-image-component"
+import ArrowTop from "../LAYOUT/ArrowTop"
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -98,6 +99,8 @@ export default function Login() {
       </form>
       </div>
       <Footer1/>
+      <ArrowTop/>
+
     </>
   )
 }

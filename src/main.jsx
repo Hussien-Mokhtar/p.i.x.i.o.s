@@ -21,6 +21,7 @@ import Checkout2 from './CHECKOUT/Checkout2';
 import Checkout3 from './CHECKOUT/Checkout3';
 import Checkout4 from './CHECKOUT/Checkout4';
 import Checkout5 from './CHECKOUT/Checkout5';
+import ShopDetails from './SHOP/ShopDetails';
 const routers = createBrowserRouter ([
   {
    path: "/", 
@@ -78,6 +79,11 @@ const routers = createBrowserRouter ([
     path: "/checkout5", 
     element:<Checkout5/>
    },
+   {
+    path:"/shopdetails/:id",
+    element:<ShopDetails/>
+  },
+  
 
 
 

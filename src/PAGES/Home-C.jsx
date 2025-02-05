@@ -2,6 +2,7 @@ import pink from "../assets/pink.png"
 import children from "../assets/children.png"
 import boy from "../assets/boy.png"
 import { GoArrowUpRight } from "react-icons/go";
+import { Link } from "react-router-dom";
 export default function HomeC() {
   return (
     <>
@@ -11,7 +12,8 @@ export default function HomeC() {
         
         <div className="container text-left "data-aos="fade-left" data-aos-duration="1500">
         <div className="flex justify-around px-8 py-4">
-          <h1 className="font-bold text-4xl">Set your wardrobe with <br /> our amazing selection!</h1><span className=" w-10 h-10 "><GoArrowUpRight className="text-7xl text-white p-3 bg-black rounded-full lg:ml-10 hover:bg-blue-600 duration-150"/></span>
+          <h1 className="font-bold text-4xl">Set your wardrobe with <br /> our amazing selection!</h1><span className=" w-10 h-10 ">
+            <Link to="/aboutus"> <GoArrowUpRight className="text-7xl text-white p-3 bg-black rounded-full lg:ml-10 hover:bg-blue-600 duration-150"/></Link></span>
           </div>
           <div className="font-semibold lg:ml-10 ml-6 text-gray-700"><h1>Lorem Ipsum is simply dummy text of the printing <br /> and typesetting industry. Lorem Ipsum has been the <br /> industry's standard dummy text ever since the</h1></div>
 

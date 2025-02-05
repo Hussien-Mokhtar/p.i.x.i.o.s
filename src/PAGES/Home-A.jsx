@@ -6,6 +6,7 @@ import { GiPolarStar } from "react-icons/gi";
 import { FaPlay } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 export default function HomeA() {
   const [selected, setSelected] = useState(0);
   const tLength = testData.length;
@@ -18,20 +19,19 @@ export default function HomeA() {
   };
   return (
     <>
-      <div className="container lg:mx-32 mx-2 px-4 grid lg:grid-cols-2 grid-cols-1 lg:gap-60 pt-36">
-        <motion.div
-          className=""
+      <div className="container lg:mx-32 mx-6 lg:px-4 grid lg:grid-cols-2 grid-cols-1 lg:gap-60 pt-36">
+        <motion.div className=""
           initial={{ opacity: 0, x: "-150%" }}
           animate={{ opacity: 1, x: "-2%" }}
           transition={{ duration: 1, ease: "easeOut" }} >
           <motion.span
             key={selected}
             {...textAnimation}
-            className="lg:text-5xl font-bold py-4" >
+            className="lg:text-5xl font-bold py-4 " >
             {testData[selected].review}
           </motion.span>
           <span>
-            <GiPolarStar className="animate text-blue-700 lg:ml-[28rem] ml-[10rem] lg:text-5xl text-3xl" />
+            <GiPolarStar className="animate text-blue-700 lg:ml-[28rem] ml-[10rem] lg:text-5xl text-3xl " />
           </span>
 
           <motion.div
@@ -58,7 +58,7 @@ export default function HomeA() {
           <motion.div
             key={`footer-${selected}`}
             {...textAnimation}
-            className="py-4 grid lg:grid-cols-3 grid-1" >
+            className="py-4 grid lg:grid-cols-3 grid-1 ml-4" >
             <FaStarOfLife className="lg:text-7xl text-4xl m-2" />
             <h5 className="font-medium lg:w-[20rem]">
               Summer Collection <br />
@@ -84,13 +84,13 @@ export default function HomeA() {
               key={selected}
               {...textAnimation}
               src={testData[selected].image} alt=""
-              className="lg:w-96 w-80 lg:h-96 h-80 rounded-3xl py-2" />
+              className="lg:w-96 w-80 lg:h-96 h-80 rounded-3xl py-2 -ml-4" />
           </div>
 
-          <motion.div className="bg-white rounded-full lg:w-fit h-fit p-2 lg:ml-[-50px] ml-[-35px]"  initial={{ opacity: 0, x: "150%" }}
+          <motion.div className="bg-white rounded-full lg:w-fit h-fit p-2 lg:ml-[-50px] ml-[-50px]"  initial={{ opacity: 0, x: "150%" }}
           animate={{ opacity: 1, x: "5%" }}
           transition={{ duration: 1, ease: "easeOut" }} >
-            <img
+            <LazyLoadImage
               onClick={() =>
                 selected === tLength - 1
                   ? setSelected(0)

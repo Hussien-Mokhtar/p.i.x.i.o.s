@@ -5,6 +5,7 @@ import AboutUsB from './AboutUs-B'
 import AboutUsA from './AboutUs-A'
 import AboutUsC from './AboutUs-C'
 import AboutUsD from './AboutUs-D'
+import ArrowTop from '../LAYOUT/ArrowTop'
 
 export default function MainAboutUs() {
   return (
@@ -15,6 +16,7 @@ export default function MainAboutUs() {
       <AboutUsC/>
       <AboutUsD/>
       <Footer1/>
+      <ArrowTop/>
       
     </>
   )

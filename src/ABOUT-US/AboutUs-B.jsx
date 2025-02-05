@@ -6,13 +6,13 @@ export default function AboutUsB() {
     <>
       <div className="grid lg:grid-cols-2 grid-cols-1 my-8 px-10 gap-20 ">
         <div className="group relative">
-            <LazyLoadImage src={men} alt="" className='rounded-2xl '/>
+            <LazyLoadImage src={men} alt="" className='rounded-2xl my-8'/>
             <div className="absolute inset-0  bg-gradient-to-r from-transparent via-white/50 to-transparent 
       opacity-0 group-hover:opacity-80 transition-opacity duration-100 animate-shimmer"></div>
 
         </div>
         <div className="">
-            <h1 className='text-3xl font-bold my-6'>Elevate Your Style: A Unique <br /> Fashion Experience at Pixio</h1>
+            <h1 className='lg:text-3xl text-xl font-bold my-6'>Elevate Your Style: A Unique <br /> Fashion Experience at Pixio</h1>
             <h2 className='text-sm'>At Untouch, we're dedicated to creating an exclusive fashion destination that <br /> transcends the ordinary. Our passion for style, quality, and individuality drives our <br /> mission. Our collection is a carefully curated blend of timeless classics and the latest trends, <br /><br />
 In addition to our extensive collection, we're equally devoted to ensuring your <br /> shopping experience is seamless and enjoyable. Our website is designed with your <br /> convenience in mind, offering secure transactions and a responsive customer support team to assist you every step of the way.</h2>
 

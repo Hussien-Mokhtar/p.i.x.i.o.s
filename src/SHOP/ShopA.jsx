@@ -44,7 +44,7 @@ export default function ShopA() {
 
       <div className="col-span-12 grid grid-cols-12 gap-10 pt-8">
         <div className=" lg:col-span-4 col-span-12 lg:w-[80%] w-full"><ShopB/></div>
-        <div className=" lg:col-span-8 col-span-12 grid lg:grid-cols-4 grid-cols-1 lg:w-[100%] w-[80%]  gap-3 lg:ml-0 ml-8">
+        <div className=" lg:col-span-8 col-span-12 grid lg:grid-cols-4 grid-cols-1 lg:w-[100%] w-[80%]  gap-3 lg:ml-0 ml-3">
 {
     shopR.map((sh1)=>{
 return <ShopADynamic key={sh1.id} shopA={sh1}/>

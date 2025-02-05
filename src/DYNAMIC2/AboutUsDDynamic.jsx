@@ -7,9 +7,9 @@ export default function AboutUsDDynamic({AboutUsD}) {
 
     <div className="py-4 flex flex-col relative group">
       <div className="relative">
-        <LazyLoadImage src={AboutUsD.img} alt="" className="rounded-2xl" />
+        <LazyLoadImage src={AboutUsD.img} alt="" className="rounded-2xl lg:ml-0 ml-10" />
         
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center gap-4 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center gap-4 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 lg:w-full w-[19rem] lg:ml-0 ml-10">
         <Link to="https://www.facebook.com/" target="blank"><FaFacebook className="text-white text-2xl hover:text-blue-500 cursor-pointer " />
           </Link>
           <Link to="https://www.twitter.com/" target="blank"><FaTwitter className="text-white text-2xl hover:text-blue-400 cursor-pointer" /></Link>

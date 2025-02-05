@@ -3,7 +3,7 @@ import { IoMdHeartEmpty, IoMdHeart } from "react-icons/io";
 import { RiShoppingBasket2Line } from "react-icons/ri";
 import { useDispatch, useSelector } from "react-redux";
 import { addToWishlist } from "../LOGIN & REGISTER/WishlistSlice";
-
+import { Link } from "react-router-dom";
 export default function ShopADynamic({ shopA }) {
   const dispatch = useDispatch();
 
@@ -17,6 +17,7 @@ export default function ShopADynamic({ shopA }) {
     }
   };
   return (
+    <>
     <div className="relative">
       <div className="parentt rounded-2xl p-1 text-center relative">
         <LazyLoadImage
@@ -55,5 +56,6 @@ export default function ShopADynamic({ shopA }) {
         </h1>
       </div>
     </div>
+    </>
   );
 }

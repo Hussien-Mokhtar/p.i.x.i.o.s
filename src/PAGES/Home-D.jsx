@@ -12,7 +12,7 @@ import { RiShoppingBasket2Line } from "react-icons/ri";
 import HomeDD from "./Home-DD";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import HomeDDynamic from "../DYNAMIC/HomeDDynamic";
-
+import { Link } from "react-router-dom";
 export default function HomeD() {
   const items = [
     { id: 1, name: "All" },
@@ -31,8 +31,8 @@ export default function HomeD() {
           {id:8, img:curly ,title:"Water-Resistant Windbreaker Jacket", price:"$60" },
       ]
   const [selectedItem, setSelectedItem] = useState(items[0]);
-
   return (
+    <>
     <div className="container mx-auto " data-aos="fade-up" data-aos-duration="1500">
       <h1 className="text-center lg:text-4xl text-2xl font-bold pb-5 pt-8">Most Popular Products</h1>
 
@@ -44,8 +44,7 @@ export default function HomeD() {
               selectedItem.name === item.name
                 ?"bg-black text-white" :"hover:bg-black hover:text-white"
             }`}
-            onClick={() => setSelectedItem(item)}
-          >
+            onClick={() => setSelectedItem(item)} >
             {item.name}
           </li>
         ))}
@@ -62,7 +61,6 @@ export default function HomeD() {
             { Home1.map((hd1)=>{
             return <HomeDDynamic key={hd1.id} HomeD={hd1}/>
                 })}
-            
             </>
           )}
                     {selectedItem.name === "Tops" && (
@@ -144,6 +142,6 @@ export default function HomeD() {
    </>
  )}
 </div>
-    )}        
-        </div>
+)}         </div>
+        </>
       )}
