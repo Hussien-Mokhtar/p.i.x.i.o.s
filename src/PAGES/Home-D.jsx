@@ -113,7 +113,7 @@ export default function HomeD() {
      <>
   <div className="parentt rounded-2xl p-1 text-center relative">
     <LazyLoadImage src={carizma} alt="All Product 1" className="lg:h-[19rem] h-[16rem] lg:w-[40rem] hover:-translate-y-3 duration-150 rounded-xl" />
-        <p className="flex justify-around font-bold">Satin Wrap Party <br /> Blouse<span>$80</span></p>
+        <p className="flex justify-around font-bold">Plaid Wool Winter  <br /> Coat<span>$80</span></p>
               <div className=" absolute lg:right-4 right-2 top-2  text-white z-10">
   <IoMdHeartEmpty className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer '/><RiShoppingBasket2Line className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer mt-1'/></div>
   <div className="parentt relative ">

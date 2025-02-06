@@ -10,7 +10,7 @@ export default function ContactUs() {
       transition={{ duration: 1, ease: 'easeOut'  }} >
         <LazyLoadImage src={cart} alt="" className="w-full h-[15rem] "/>
         <div className="text-white">
-  <h5 className="absolute left-0 top-0 flex flex-col text-4xl bg-black bg-opacity-30 w-full lg:px-[33rem] px-[7rem] lg:py-[5.1rem] py-[3.5rem]  font-bold text-center pt-[210px]"> ContactUs <span className="text-lg font-semibold mt-2">
+  <h5 className="absolute left-0 top-0 flex flex-col text-4xl bg-black bg-opacity-30 w-full lg:px-[33rem] px-[7rem] lg:py-[8.1rem] py-[3.5rem]  font-bold text-center lg:mt-[2rem] pt-[210px]"> ContactUs <span className="text-lg font-semibold mt-2">
           <Link to="/">HOME</Link>  - CONTACTUS</span></h5>
         </div>
       </motion.div>
