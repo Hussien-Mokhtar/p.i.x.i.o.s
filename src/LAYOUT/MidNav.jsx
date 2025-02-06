@@ -52,12 +52,12 @@ export default function MidNav() {
         </Navbar.Collapse>
 
         <Navbar.Collapse>
-          <div className="flex justify-between items-center gap-2 lg:text-[0.9rem] py-4 hover:underline hover:text-blue-600 duration-300 bg-white cursor-pointer font-bold ">
+          <div className="flex justify-between items-center gap-2 lg:text-[0.9rem] py-4 hover:underline hover:text-blue-600 duration-300  cursor-pointer font-bold ">
             <IoPersonOutline className='text-md' />
             <span><Link to="/login" className='text-md'>Login</Link></span>
           </div>
 
-          <div className="flex justify-between items-center gap-2 lg:text-[0.9rem] py-4 hover:underline hover:text-blue-600 duration-300 bg-white cursor-pointer font-bold relative">
+          <div className="flex justify-between items-center gap-2 lg:text-[0.9rem] py-4 hover:underline hover:text-blue-600 duration-300  cursor-pointer font-bold relative">
             <FaRegHeart className='text-md' />
             <span>
               <Link to="/wishlist" className='text-md'>
@@ -70,12 +70,11 @@ export default function MidNav() {
             </span>
           </div>
 
-          <div className="flex justify-between items-center gap-2 lg:text-[0.9rem] py-4 hover:underline hover:text-blue-600 duration-300 bg-white cursor-pointer font-bold relative">
+          <div className="flex justify-between items-center gap-2 lg:text-[0.9rem] py-4 hover:underline hover:text-blue-600 duration-300  cursor-pointer font-bold relative">
             <MdOutlineShoppingBag className='text-md' />
             <span>
               <Link to="/checkout1" className='text-md'>Checkout</Link>
             </span>
-
           </div>
         </Navbar.Collapse>
       </Navbar>

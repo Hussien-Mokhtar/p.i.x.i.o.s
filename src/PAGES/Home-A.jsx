@@ -19,6 +19,7 @@ export default function HomeA() {
   };
   return (
     <>
+    
       <div className="container lg:mx-32 mx-6 lg:px-4 grid lg:grid-cols-2 grid-cols-1 lg:gap-60 pt-36">
         <motion.div className=""
           initial={{ opacity: 0, x: "-150%" }}

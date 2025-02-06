@@ -73,10 +73,10 @@ export default function Register() {
    <motion.div className=""             
               animate={{ y: [0, 20,0] }} 
               transition={{ duration: 3, repeat: Infinity }} >
-   <LazyLoadImage src={log} alt="Login-img" className="lg:w-[26rem] h-[38rem] rounded-t-full ml-20 mt-24 bg-blue-400 " />
+   <LazyLoadImage src={log} alt="Login-img" className="lg:w-[26rem] w-[24rem] h-[38rem] rounded-t-full lg:ml-20 mt-24 bg-blue-400 " />
    </motion.div>
 
-      <div className="container mx-auto px-4 pt-4 grid lg:grid-cols-1 grid-cols-1 absolute lg:left-[50%] lg:top-[70%]  ">
+      <div className="container mx-auto px-4 pt-8 grid lg:grid-cols-1 grid-cols-1 absolute lg:left-[50%] lg:top-[70%]  ">
         <div className="grid lg:grid-cols-1 lg:ml-[-60%] text-center ">
           <h5 className="lg:text-3xl font-bold pb-4">Create account</h5>
           <p className="lg:text-xl font-semibold pb-4 text-gray-500">Please register account detail</p>
@@ -129,7 +129,7 @@ export default function Register() {
           {errorMessage && <p className="text-red-500">{errorMessage}</p>} 
         </Card>
       </div>
-<div className="mt-56"> <Footer1 /></div>
+<div className="lg:mt-40 mt-[45rem]"> <Footer1 /></div>
         <ArrowTop />
     </>
   );

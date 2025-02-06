@@ -72,7 +72,7 @@ export default function HomeD() {
   <IoMdHeartEmpty className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer '/><RiShoppingBasket2Line className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer mt-1'/></div>
   <div className="parentt relative ">
   <h1 className=' absolute lg:-top-[21rem] -top-[18rem] lg:left-5 bg-white rounded-xl px-2 font-semibold text-sm z-10'>Get 20% off</h1></div>
-    <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black '>QUICK VIEW</h1>
+        <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black lg:ml-0 -ml-4 lg:my-0 my-4 '>QUICK VIEW</h1>
   </div>
   <div className="parentt rounded-2xl p-1 text-center relative">
     <LazyLoadImage src={curly} alt="All Product 1" className="lg:h-[19rem] h-[16rem] lg:w-[40rem] hover:-translate-y-3 duration-150 rounded-xl" />
@@ -81,7 +81,7 @@ export default function HomeD() {
   <IoMdHeartEmpty className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer '/><RiShoppingBasket2Line className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer mt-1'/></div>
   <div className="parentt relative ">
   <h1 className=' absolute lg:-top-[21rem] -top-[18rem] lg:left-5 bg-white rounded-xl px-2 font-semibold text-sm z-10'>Get 20% off</h1></div>
-    <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black '>QUICK VIEW</h1>
+        <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black lg:ml-0 -ml-4 lg:my-0 my-4 '>QUICK VIEW</h1>
   </div>
   <div className="parentt rounded-2xl p-1 text-center relative">
     <LazyLoadImage src={carizma} alt="All Product 1" className="lg:h-[19rem] h-[16rem] lg:w-[40rem] hover:-translate-y-3 duration-150 rounded-xl" />
@@ -90,7 +90,7 @@ export default function HomeD() {
   <IoMdHeartEmpty className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer '/><RiShoppingBasket2Line className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer mt-1'/></div>
   <div className="parentt relative ">
   <h1 className=' absolute lg:-top-[21rem] -top-[18rem] lg:left-5 bg-white rounded-xl px-2 font-semibold text-sm z-10'>Get 20% off</h1></div>
-    <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black '>QUICK VIEW</h1>
+        <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black lg:ml-0 -ml-4 lg:my-0 my-4 '>QUICK VIEW</h1>
   </div>
 
       </>
@@ -105,7 +105,7 @@ export default function HomeD() {
   <IoMdHeartEmpty className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer '/><RiShoppingBasket2Line className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer mt-1'/></div>
   <div className="parentt relative ">
   <h1 className=' absolute lg:-top-[21rem] -top-[18rem] lg:left-5 bg-white rounded-xl px-2 font-semibold text-sm z-10'>Get 20% off</h1></div>
-    <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black '>QUICK VIEW</h1>
+        <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black lg:ml-0 -ml-4 lg:my-0 my-4 '>QUICK VIEW</h1>
   </div>
       </>
     )}
@@ -118,7 +118,7 @@ export default function HomeD() {
   <IoMdHeartEmpty className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer '/><RiShoppingBasket2Line className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer mt-1'/></div>
   <div className="parentt relative ">
   <h1 className=' absolute lg:-top-[21rem] -top-[18rem] lg:left-5 bg-white rounded-xl px-2 font-semibold text-sm z-10'>Get 20% off</h1></div>
-    <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black '>QUICK VIEW</h1>
+        <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black lg:ml-0 -ml-4 lg:my-0 my-4 '>QUICK VIEW</h1>
   </div>
   <div className="parentt rounded-2xl p-1 text-center relative">
     <LazyLoadImage src={curly} alt="All Product 1" className="lg:h-[19rem] h-[16rem] lg:w-[40rem] hover:-translate-y-3 duration-150 rounded-xl" />
@@ -127,7 +127,7 @@ export default function HomeD() {
   <IoMdHeartEmpty className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer '/><RiShoppingBasket2Line className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer mt-1'/></div>
   <div className="parentt relative ">
   <h1 className=' absolute lg:-top-[21rem] -top-[18rem] lg:left-5 bg-white rounded-xl px-2 font-semibold text-sm z-10'>Get 20% off</h1></div>
-    <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black '>QUICK VIEW</h1>
+        <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black lg:ml-0 -ml-4 lg:my-0 my-4 '>QUICK VIEW</h1>
   </div>
   <div className="parentt rounded-2xl p-1 text-center relative">
     <LazyLoadImage src={classic} alt="All Product 1" className="lg:h-[19rem] h-[16rem] lg:w-[40rem] hover:-translate-y-3 duration-150 rounded-xl" />
@@ -136,7 +136,7 @@ export default function HomeD() {
   <IoMdHeartEmpty className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer '/><RiShoppingBasket2Line className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer mt-1'/></div>
   <div className="parentt relative ">
   <h1 className=' absolute lg:-top-[21rem] -top-[18rem] lg:left-5 bg-white rounded-xl px-2 font-semibold text-sm z-10'>Get 20% off</h1></div>
-    <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black '>QUICK VIEW</h1>
+        <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black lg:ml-0 -ml-4 lg:my-0 my-4 '>QUICK VIEW</h1>
   </div>
 
    </>

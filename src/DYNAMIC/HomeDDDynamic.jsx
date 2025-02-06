@@ -14,7 +14,7 @@ export default function HomeDDDynamic({HomeDD}) {
         <IoMdHeartEmpty className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer '/><RiShoppingBasket2Line className='bg-black opacity-40 rounded-full p-2 text-4xl cursor-pointer mt-1'/></div>
         <div className="relative ">
         <h1 className=' absolute lg:-top-[21rem] -top-[19rem] lg:left-5 bg-white rounded-xl px-2 font-semibold text-sm z-10'>Get 20% off</h1></div>
-        <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black '>QUICK VIEW</h1>
+        <h1 className='title rounded-3xl border-4 border-white text-sm px-5 py-2 cursor-pointer hover:bg-white hover:text-black font-bold hover:border-4 hover:border-black lg:ml-0 -ml-4 lg:my-0 my-4 '>QUICK VIEW</h1>
         </div>
 
         </Link>
